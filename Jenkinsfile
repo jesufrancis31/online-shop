@@ -23,7 +23,7 @@ node{
              sh 'sudo docker login -u "jesufrancis31" -p "Devops019@" docker.io'
              //sh 'sudo docker push upasanatestdocker/mysql'
              //sh 'sudo docker push upasanatestdocker/job1_web1.0'
-             sh 'sudo docker push jesufrancis31/edurekha-onlineshopping-prod_web:latest'
+             sh 'sudo docker push edurekha-onlineshopping-prod_web:latest'
             // sh 'docker push upasanatestdocker/mysql'
           
     }
